@@ -1,0 +1,7 @@
+
+x = 52
+if x > 2:
+  print('More than Two')
+  if x < 200:
+    print("Less than 200")
+print('All Done')
