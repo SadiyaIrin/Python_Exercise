@@ -1,0 +1,16 @@
+
+# Work out TraceBack Error    
+a = 'Hello Sadiya'
+try:
+  b = int(a)    #When the first conversation fails(try) it just drops into the except clause & the Program Continues.
+except:
+  b = -1
+print('First', b)
+
+a = '123'
+try:
+  b = int(a)    #When the Second conversation succeeds(try) it just skips the except clause & the Program Continues.
+except:
+  b = -1
+
+print("Second", b)
