@@ -1,0 +1,8 @@
+
+# TraceBack Error    
+a = 'Hello Sadiya'
+b = int(a)    # The program stops here
+print('First', b)
+a = '123'
+b = int(a)
+print("Second", b)
