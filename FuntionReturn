@@ -1,0 +1,7 @@
+#Function with Return values
+
+def greet():
+  return 'Hello'
+
+print(greet(), 'Sadiya')
+print(greet(), 'Irin')
