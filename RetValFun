@@ -1,0 +1,14 @@
+
+# Funtion with return values
+
+def greet(lang):
+  if lang == 'es':
+    return 'Hola'
+  elif lang == 'fr':
+    return 'Bonjour'
+  else:
+    return 'Hello'
+
+print(greet('en'), 'Sadiya')
+print(greet('es'), 'Irin')
+print(greet('fr'), 'Flora')
